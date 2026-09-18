@@ -1,0 +1,19 @@
+[project]
+name = "async-data-validator"
+version = "0.1.0"
+description = "Async batch ingestion, schema validation, and error reporting using Pydantic v2"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "pydantic>=2.7.0",
+    "aiofiles>=23.2.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.0.0",
+    "pytest-asyncio>=0.23.0",
+]
+
+[tool.pytest.ini_options]
+asyncio_mode = "auto"
