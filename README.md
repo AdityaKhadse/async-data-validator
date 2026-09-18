@@ -11,7 +11,7 @@ An asynchronous ingestion, validation, and serialization pipeline built with Pyt
 ## Installation
 
 ```bash
-git clone [https://github.com/](https://github.com/)<YOUR-USERNAME>/async-data-validator.git
+git clone https://github.com/AdityaKhadse/async-data-validator.git
 cd async-data-validator
 python -m venv .venv
 
